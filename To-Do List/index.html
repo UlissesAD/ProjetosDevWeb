@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+    <title>To-do List</title>
+</head>
+
+<body>
+    <section class="cabecalho">
+        <h1 class="center titulo">TO-DO LIST</h1>
+    </section>
+
+    <section class="cont">
+        <h4 class="center">INSIRA A TAREFA:</h4>
+        <p class="center warning" id="warning"></p>
+        <p class="center">
+            <input name="tarefa" id="tarefa" type="text" />
+            <button title="Adiciona uma tarefa" onclick="adicionar(); ">Adicionar</button>
+        </p>
+
+        <div class="center-2" id="article"></div>
+
+
+        <script src="assets/js/script.js"></script>
+    </section>
+    <footer class="foot">
+        <button title="Recarrega a página" class="reload" onclick="reloadP()">Apagar lista</button>
+        <p class="end">Made by <a class="link" href="https://github.com/UlissesAD" target="_blank">UlissesAD</a> </p>
+
+    </footer>
+</body>
+
+</html>

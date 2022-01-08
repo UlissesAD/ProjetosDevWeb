@@ -1,0 +1,92 @@
+html, body{
+ height: 100%;
+ margin: 0px;
+ padding: 0px;
+ font-size: 65%;
+}
+
+body{
+   background-color: #E2EDF4;
+   letter-spacing: .5px;    
+   display: flex;
+   flex-direction: column;
+   font: bold 2rem 'Open Sans', sans-serif;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-align: center;
+}
+
+.center-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 30%;
+}
+.titulo {
+  border: 2px black solid;
+  background-color: white;
+  border-radius:  5px;
+  padding: 10px;
+}
+
+.Item{
+    display: flex;
+    margin-bottom: 0;
+    padding: 5px;
+    background-color: #C3CDDE;
+    width: auto;
+    height: 60px;
+    align-items: center;  
+    border: 2px solid #AFBCD3;  
+}
+
+.ItemText{
+    padding-left: 8px;
+}
+
+.warning{
+    color:red;
+    font-size: 15px;
+}
+
+.Item > input[type='checkbox']:checked  + div {
+    text-decoration:line-through;
+}
+
+.cabecalho{
+    padding: 10px;
+    background-color: #C3CDDE;
+}
+
+.foot{
+    flex-shrink: 0;
+    padding: 0 ;  
+    text-align: center;
+}
+
+.cont{
+    flex: 1 0 auto;
+}
+
+.end{
+    color:grey;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.reload{
+    margin: 25px;
+}
+
+.link{
+   
+    color: grey;
+    
+}
