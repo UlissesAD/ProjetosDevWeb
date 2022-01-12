@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 60%;
+}
+
+body {
+    background-color: #E2EDF4;
+    letter-spacing: .5px;
+    display: flex;
+    flex-direction: column;
+    font: bold 2rem 'Open Sans', sans-serif;
+
+
+}
+
+button {
+
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #2C2C70 -5px 8px 20px -10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    touch-action: manipulation;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    margin: 6px;
+    padding: 0;
+    font-size: 20px;
+
+}
+
+div {
+    display: block;
+    line-height: normal;
+    font-size: 0;
+}
+
+@font-face {
+    font-family: digital;
+    src: url('fontDig/digital-7.ttf');
+}
+
+.zero {
+    width: 132px;
+}
+
+.screen {
+    font-family: digital;
+    font-size: 35px;
+    letter-spacing: 2px;
+    height: 54px;
+    margin: 6px;
+    background-color: #5E5DF0;
+    border-radius: 10px;
+    box-shadow: inset -8px 10px 20px -15px black;
+    color: #FFFFFF;
+    border: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 22px;
+    overflow-x: auto;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.inicio {
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+.calc {
+    background-color: #A7A7F2;
+    box-shadow: black 0px 15px 20px -10px;
+    border-radius: 10px;
+    border: 0;
+    padding: 7px;
+
+}
+
+.cont {
+    flex: 1 0 auto;
+    margin: auto;
+
+}
+
+.foot {
+    flex-shrink: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #C3CDDE;
+    color: grey;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 60px;
+}
+
+.link {
+    color: grey;
+}
+
+.link2 {
+    color: black;
+    text-decoration: none;
+}
+
+.titulo {
+    background-color: #A7A7F2;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px #5E5DF0 solid;
+    box-shadow: black -3px 10px 20px -10px;
+}
+
+.warning {
+    color: red;
+    white-space: pre-wrap;
+    white-space: pre-line;
+}
